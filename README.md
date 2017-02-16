@@ -1,2 +1,1 @@
-# fistlab.org
-Source of fistlab.org
+# Fistlab.org

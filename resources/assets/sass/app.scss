@@ -1,0 +1,255 @@
+// Bootstrap
+@import "variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Code Highlight
+@import "../../../node_modules/highlightjs/styles/tomorrow";
+
+// Import theme styles.
+@import "default";
+
+
+.logo {
+  height: 1.5rem;
+  display: inline-block;
+  margin-top: -4px;
+  margin-right: 5px;
+}
+
+#switcher {
+  display: inline-block;
+}
+
+#switcher a {
+  display: inline-block;
+  width: 100%;
+  padding: 7px 7px;
+  text-align: center;
+  color: grey;
+  font-size: 14px;
+  border-bottom: 1px solid grey;
+}
+
+#switcher li a:link,
+#switcher li a:visited,
+#switcher li a:active,
+#switcher li a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+#switcher li a:hover {
+  background: #efefef;
+}
+
+#switcher li:last-child a {
+  border-bottom: none;
+}
+
+#switcher .dropdown button {
+  padding: 7px 8px;
+  margin: 2px 0px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+#switcher ul.dropdown-menu {
+  border-radius: 3px;
+  padding: 0px;
+  min-width: 5rem;
+}
+
+.navbar-language {
+  font-size: 12px;
+  display: block;
+  float: left;
+  margin-left: -12px;
+  padding: 12px 12px 8px 0px;
+}
+
+.navbar-language a:link,
+.navbar-language a:hover,
+.navbar-language a:active,
+.navbar-language a:visited {
+  color: #000;
+}
+
+.docs .sidebar ul a,
+.docs article h1 + ul li:before {
+  color: $brand-primary;
+}
+
+.docs article a:hover,
+.docs article h2 a:before {
+  color: darken($brand-primary, 7.5);
+}
+
+code {
+  color: darken($brand-primary, 7.5);
+}
+
+.navbar-brand,
+.navbar-language,
+.docs .sidebar h2,
+.navbar-nav .nav-link {
+  font-weight: 200;
+}
+
+.docs .sidebar ul li a {
+  font-size: 14px;
+}
+
+.docs .sidebar ul li ul li {
+  list-style-type: circle;
+  color: $brand-primary;
+  margin-left: 18px;
+  font-size: 14px;
+}
+
+#hero {
+  padding: 50px 40px;
+}
+
+#hero .inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#hero .left,
+#hero .right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#hero .left {
+  width: 39%; }
+
+#hero .right {
+  width: 61%;
+}
+
+#hero .hero-logo {
+  width: 215px;
+  height: 215px;
+  float: right;
+  margin-right: 60px;
+}
+
+#hero h2 {
+  font-weight: 500;
+  font-size: 2.4em;
+  margin: 0 0 10px;
+  display: none;
+}
+
+#hero h1 {
+  font-weight: 200;
+  margin: 0;
+  font-size: 3.2em;
+}
+
+#hero .button {
+  padding: 0.75em 1.3em;
+  border-radius: 2em;
+  display: inline-block;
+  color: #fff;
+  background-color: $brand-primary;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  border: 1px solid $brand-primary;
+  margin: 2em 0;
+  font-size: 0.85em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+#hero .button.white {
+  background-color: #fff;
+  color: $brand-primary;
+}
+
+#hero .button:hover {
+  background-color: #fff;
+  color: $brand-primary;
+}
+
+#hero .button.white:hover {
+  background-color: $brand-primary;
+  color: #fff;
+}
+
+#hero .button:first-child {
+  margin-right: 1em;
+}
+
+#highlights {
+  padding-bottom: 70px;
+}
+
+#highlights .inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#highlights .point {
+  width: 32%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 0 2em;
+}
+
+#highlights .point h2 {
+  color: $brand-primary;
+  font-size: 1.5em;
+  font-weight: 200;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+#highlights .point p {
+  color: grey;
+  font-weight: 200;
+}
+
+#introduction {
+  padding-bottom: 70px;
+  color: grey;
+  font-weight: 200;
+  line-height: 1.6em;
+}
+
+#introduction .inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#introduction h2 {
+  color: $brand-primary;
+  font-size: 1.5em;
+  font-weight: 200;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+#introduction p {
+  margin-bottom: 0.7rem;
+}
+
+#introduction b,
+#introduction strong {
+  font-weight: 500;
+}
+
+blockquote:before {
+  position: absolute;
+  top: 30px;
+  left: 2px;
+}
+
+blockquote {
+  position: relative;
+  padding-left: 30px;
+}

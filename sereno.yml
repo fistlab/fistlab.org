@@ -1,0 +1,14 @@
+siteName: Fistlab
+siteDescription: The Fistlab Components
+
+github:
+  vendor: fistlab
+
+sereno:
+  url: https://fistlab.dev/
+  extensions:
+    - Sereno\Extensions\DocsExtension
+
+docs:
+  default: master,getting-started
+  redirect: true
