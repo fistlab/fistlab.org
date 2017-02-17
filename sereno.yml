@@ -5,7 +5,7 @@ github:
   vendor: fistlab
 
 sereno:
-  url: https://fistlab.dev/
+  url: https://fistlab.org/
   extensions:
     - Sereno\Extensions\DocsExtension
 
